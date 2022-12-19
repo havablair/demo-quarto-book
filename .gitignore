@@ -13,3 +13,6 @@
 # RStudio files
 .Rproj.user/
 .Rproj.user
+
+### Quarto ### 
+.quarto/
