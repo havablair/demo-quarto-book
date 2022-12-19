@@ -1,0 +1,19 @@
+# Preface {.unnumbered}
+
+This is pretty much the default skeleton you get when you start a new Quarto book project.
+One thing I changed right away was in `_quarto.yml` change `output-dir` to `docs` (for publishing via GitHub pages).
+The `_quarto.yml` file is where lots of important things can be configured for your book, so you will likely add to it.
+See options (lots) at [this link to the Quarto documentation](https://quarto.org/docs/reference/projects/books.html)
+
+NOTE: this repo does not contain a `.gitignore` because I am trying to show all the files associated with this skeleton book.
+But you would almost certainly want to add one to ignore any auxiliary/references files or big datasets that might be living in the same directory as your book, but don't / shouldn't be version controlled.
+
+## Some boilerplate stuff
+
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+```{r}
+1 + 1
+```

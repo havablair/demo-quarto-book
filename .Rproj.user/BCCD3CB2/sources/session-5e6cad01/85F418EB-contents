@@ -1,0 +1,14 @@
+# Preface {.unnumbered}
+
+This is pretty much the default skeleton you get when you start a new Quarto book project.
+I changed a few things:
+
+-   in `_quarto.yml` change `output-dir` to `docs` (for publishing via GitHub pages)
+
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+```{r}
+1 + 1
+```

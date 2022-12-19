@@ -1,0 +1,48 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Minnesota Topsoil Classification for Soil Health Assessment"
+  author: "Hava Blair"
+  date: "2022-07-13"
+  chapters:
+    - index.qmd
+    - 01-roadmap.qmd
+    - 02-data_sources.qmd
+    - 03-mus_comp_in_aoi.qmd
+    - 04-subset-component-data.qmd
+    - 05-horiz-data.qmd
+    - 06-soil-prop-eda.qmd
+    - 07-map-unit-agg.qmd
+    - 08-var-transformations.qmd
+    - 09-plot-ec-lep.qmd
+    - 10-additional-data-prep.qmd
+    - 11-implement-kmeans.qmd
+    - 12-explore-clust-props.qmd
+    - 13-kmeans-no-ec-carbonate.qmd
+    - 14-clust-props-no-ec-carbs.qmd
+    - 15-kmeans-no-ec.qmd
+    - 16-clust-props-no-ec.qmd
+    - 17-clustering-finalists.qmd
+    - 18-results-figs.qmd
+    - references.qmd
+  appendices: 
+    - diss_proposal.qmd
+    - about-kmeans.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    df-print: paged
+  pdf:
+    documentclass: scrreprt
+# knitr:
+#   opts_chunk: 
+#       echo: false
+editor: visual
+execute: 
+  freeze: auto
+
