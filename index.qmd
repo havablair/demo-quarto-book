@@ -1,14 +1,14 @@
 # Preface {.unnumbered}
 
 This is pretty much the default skeleton you get when you start a new Quarto book project.
-Two things to do right away if you know you want to publish to GitHub Pages (all of this outlined [in the Quarto docs here](https://quarto.org/docs/publishing/github-pages.html))
+Few things to do right away if you know you want to publish to GitHub Pages (all of this outlined [in the Quarto docs here](https://quarto.org/docs/publishing/github-pages.html))
 
--    in `_quarto.yml` change `output-dir` to `docs` The `_quarto.yml` file is where lots of important things can be configured for your book, so you will likely add to it. See options (lots) at [this link to the Quarto documentation](https://quarto.org/docs/reference/projects/books.html)
+-   in `_quarto.yml` change `output-dir` to `docs` The `_quarto.yml` file is where lots of important things can be configured for your book, so you will likely add to it. See options (lots) at [this link to the Quarto documentation](https://quarto.org/docs/reference/projects/books.html)
 -   Add a `.nojekyll` file to root of the repo (see more info in Quarto docs for the OS-specific way to do this)
 -   Added a `.gitignore` file so that right away I'm not version controlling any of the user-specific or session-specific files related to RStudio. You will most certainly be expanding this `.gitignore` as you build out your book project. For example, to ignore reference files or notes that you don't want to share, or ignore large datasets / PDFs / things that aren't really amenable to version control with GitHub.
 -   Once you have your repo setup and made your initial commit, go to the "Pages" setting within your settings and configure GitHub pages to publish from the "docs" directory of the main branch ([see screenshot under the `.nojekyll` section here](https://quarto.org/docs/publishing/github-pages.html#render-to-docs).
 
-## Publishing to GitHub Pages 
+## Publishing to GitHub Pages
 
 ## Some boilerplate stuff
 

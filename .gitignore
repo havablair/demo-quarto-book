@@ -14,5 +14,6 @@
 .Rproj.user/
 .Rproj.user
 
-### Quarto ### 
+### Quarto ###
 .quarto/
+/.quarto/

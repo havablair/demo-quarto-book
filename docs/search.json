@@ -4,14 +4,35 @@
     "href": "index.html",
     "title": "A bare bones book in Quarto",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Preface\nThis is pretty much the default skeleton you get when you start a new Quarto book project. Few things to do right away if you know you want to publish to GitHub Pages (all of this outlined in the Quarto docs here)"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
+    "objectID": "index.html#publishing-to-github-pages",
+    "href": "index.html#publishing-to-github-pages",
+    "title": "A bare bones book in Quarto",
+    "section": "Publishing to GitHub Pages",
+    "text": "Publishing to GitHub Pages"
+  },
+  {
+    "objectID": "index.html#some-boilerplate-stuff",
+    "href": "index.html#some-boilerplate-stuff",
+    "title": "A bare bones book in Quarto",
+    "section": "Some boilerplate stuff",
+    "text": "Some boilerplate stuff\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "intro.html#a-subsection",
+    "href": "intro.html#a-subsection",
     "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "section": "1.1 A subsection",
+    "text": "1.1 A subsection\nNote that subsections appear in the sidebar table of contents for this chapter"
+  },
+  {
+    "objectID": "intro.html#another-subsection",
+    "href": "intro.html#another-subsection",
+    "title": "1  Introduction",
+    "section": "1.2 Another subsection",
+    "text": "1.2 Another subsection\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "summary.html",
